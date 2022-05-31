@@ -17,3 +17,9 @@ In my analysis of this table, I will seek to answer the following questions:
 
 4.) Is the percentage of infants exclusively breastfed correlated with adult female mortality?
 
+For the first question, I used the SQL viewer within Microsoft Access to create this report 
+
+<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171073727-0df169b9-4aef-4ab4-adf8-9d113ea0d609.png"></code>
+<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171073581-7dc67d6c-9c59-4fa4-92bf-8bc4be77e8c7.png"></code>
+
+With this very simple query I was able to compare some preliminary results for percentage of unvaccinated children and the impact on infant mortality. Initially, infant mortality was given as "per 1,000 individuals". To keep the data consistent, I divided these numbers by 1,000 to get the percentage infant mortality to compare to the percentage of unvaccinated infants. I also formatted the percentages to make the report a little more readable. 
