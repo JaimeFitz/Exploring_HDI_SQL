@@ -1,0 +1,9 @@
+SELECT HealthOutcomes.Country, HealthOutcomes.InfantsLackingDTPVaxPercent19,  HealthOutcomes.InfantsLackingMeaslesVaxPercent19 , (HealthOutcomes.InfantMort18/1000)
+FROM HealthOutcomes
+ORDER BY HealthOutcomes.InfantMort18;
+
+/* 
+Table for comparing infants lacking both vaccines to mortality rate of infants overall
+Mortality rate of infants is listed in the table originally as per 1k individuals
+I divided by 1000 to get the percent rate of infant mortality instead, to compare more easily to the percent of unvaccinated infants
+*\
